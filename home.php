@@ -27,8 +27,8 @@ include("auth.php");
                         <img class="img img-responsive rounded-circle mb-3" width="160" src="img/<?php echo $callback['photo'] ?>" />
                         <h3>Welcome, <?php echo  $callback['name'] ?> 👋🏻</h3>
                         <p><?php echo $callback['email'] ?></p>
-                        <p><a href="result_booking.php">Form Booking</a></p>
-                        <p><a href="logout.php">Logout</a></p>
+                        <p><a href="formBooking.php">Form Booking</a></p>
+                        <p><a href="signout.php">Logout</a></p>
                     </div>
                 </div>
             </div>

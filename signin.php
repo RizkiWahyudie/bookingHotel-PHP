@@ -14,7 +14,7 @@ if (isset($_POST['login'])) {
             $qry = mysqli_fetch_array($checkLogin);
             $_SESSION['username'] = $username;
             $_SESSION['email'] = $email;
-            header("location:timeline.php");
+            header("location:home.php");
         }
     }
     $error = true;
@@ -39,9 +39,9 @@ if (isset($_POST['login'])) {
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6">
-                <p>&larr; <a href="index.php">Home</a>
+                <p>&larr; <a href="main.php">Home</a>
                 <h4>Masuk ke Pesbuk</h4>
-                <p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
+                <p>Belum punya akun? <a href="signup.php">Daftar di sini</a></p>
 
                 <?php if (isset($error)) :
                     echo "<p>Username / Password anda salah</p>";

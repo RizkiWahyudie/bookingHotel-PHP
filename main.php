@@ -21,8 +21,8 @@
                         <p>Bergabunglah bersama jutaan orang lainnya...</p>
                     </div>
                     <div class="col-md-4">
-                        <a href="login.php" class="btn btn-secondary">Masuk</a>
-                        <a href="register.php" class="btn btn-success">Daftar</a>
+                        <a href="signin.php" class="btn btn-secondary">Masuk</a>
+                        <a href="signup.php" class="btn btn-success">Daftar</a>
                     </div>
                 </div>
             </div>

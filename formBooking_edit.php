@@ -2,7 +2,7 @@
 include("auth.php");
 
 if (!isset($_GET['id'])) {
-    header('location: booking.php');
+    header('location: formBooking.php');
 }
 
 // ambil id dari query string
@@ -33,7 +33,7 @@ if (isset($_POST['book'])) {
 
     // CEK QUERY APAKAH BERHASIL DISIMPAN APA TIDAK
     if ($query) {
-        header('Location: booking.php?status=sukses');
+        header('Location: formBooking.php?status=sukses');
     } else {
         die('Gagal disimpan');
     }
